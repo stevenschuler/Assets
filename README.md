@@ -1,4 +1,4 @@
-# RL474
+# Assets
 
 INSTALLATION INSTRUCTIONS
 
@@ -27,8 +27,10 @@ iii. Preparing ML-agents python library
 
 With these installations, you should be ready to import all of the data from this repo into your unity project!
 
-iv. Final step
-  1. Move the file "TagManager.asset", which is included in this repo, into the "ProjectSettings" folder which is found in your project directory.
+iv. Final steps
+  1. Delete the Assets folder in your current Unity project directory.
+  2. Clone this new Assets folder into your Unity project directory.
+  3. Move the file "TagManager.asset", which is included in this repo, into the "ProjectSettings" folder which is found in your project directory.
 
 v. Running ML agents
   1. To run ml-agents, ensure that you have activated your venv.
